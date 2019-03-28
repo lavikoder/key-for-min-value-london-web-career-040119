@@ -5,7 +5,7 @@ def key_for_min_value(birthday_hash)
   min_kid = 0
   min_age = 0
 
-      #using each will allow you to return the single value
+#using each will allow you to return the single value
 
   birthday_kids.each do |kids_name, age|
     if min_age == 0 || age < min_age 
@@ -14,6 +14,5 @@ def key_for_min_value(birthday_hash)
       
         min_kid = kids_name
         min_age = age
-    end
 end
 
