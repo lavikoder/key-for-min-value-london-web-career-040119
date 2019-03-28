@@ -14,5 +14,5 @@ def key_for_min_value(birthday_hash)
       
         min_kid = kids_name
         min_age = age
+  end
 end
-
