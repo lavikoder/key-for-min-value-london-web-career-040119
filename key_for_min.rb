@@ -8,8 +8,10 @@ def key_for_min_value(birthday_hash)
       #using each will allow you to return the single value
 
   birthday_kids.each do |kids_name, age|
-    if min_age == 0 || age < min_age #how to sort age as a min_value
-      puts "The youngest person in the room is #{age} years old"
+    if min_age == 0 || age < min_age 
+      
+#how to sort age as a min_value
+      
         min_kid = kids_name
         min_age = age
     end
